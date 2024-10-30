@@ -1,0 +1,236 @@
+Version 4.0 HI-TECH Software Intermediate Code
+[p mainexit ]
+"199 C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC10-12Fxxx_DFP/1.5.61/xc8\pic\include\proc\pic10f200.h
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC10-12Fxxx_DFP/1.5.61/xc8\pic\include\proc\pic10f200.h: 199: extern volatile unsigned char OSCCAL __attribute__((address(0x005)));
+[v _OSCCAL `Vuc ~T0 @X0 0 e@5 ]
+"308
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC10-12Fxxx_DFP/1.5.61/xc8\pic\include\proc\pic10f200.h: 308: extern volatile __control unsigned char OPTION __attribute__((address(0x000)));
+[v _OPTION `VWuc ~T0 @X0 0 e@0 ]
+"270
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC10-12Fxxx_DFP/1.5.61/xc8\pic\include\proc\pic10f200.h: 270: extern volatile unsigned char GPIO __attribute__((address(0x006)));
+[v _GPIO `Vuc ~T0 @X0 0 e@6 ]
+"312
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC10-12Fxxx_DFP/1.5.61/xc8\pic\include\proc\pic10f200.h: 312: extern volatile __control unsigned char TRIS __attribute__((address(0x006)));
+[v _TRIS `VWuc ~T0 @X0 0 e@6 ]
+"379
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC10-12Fxxx_DFP/1.5.61/xc8\pic\include\proc\pic10f200.h: 379: extern volatile __bit GP2 __attribute__((address(0x32)));
+[v _GP2 `Vb ~T0 @X0 0 e@50 ]
+"27 main.c
+[; ;main.c: 27: void filter(uint8_t signalTime);
+[v _filter `(v ~T0 @X0 0 ef1`uc ]
+[v F36 `(v ~T0 @X0 1 tf1`ul ]
+"12 C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC10-12Fxxx_DFP/1.5.61/xc8\pic\include\builtins.h
+[v __delay `JF36 ~T0 @X0 0 e ]
+[p i __delay ]
+"28 main.c
+[; ;main.c: 28: void generateOutput(void);
+[v _generateOutput `(v ~T0 @X0 0 ef ]
+"382 C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC10-12Fxxx_DFP/1.5.61/xc8\pic\include\proc\pic10f200.h
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC10-12Fxxx_DFP/1.5.61/xc8\pic\include\proc\pic10f200.h: 382: extern volatile __bit GP3 __attribute__((address(0x33)));
+[v _GP3 `Vb ~T0 @X0 0 e@51 ]
+"12 main.c
+[p x WDTE  =  OFF        ]
+"13
+[p x CP  =  OFF          ]
+"14
+[p x MCLRE  =  OFF       ]
+"55 C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC10-12Fxxx_DFP/1.5.61/xc8\pic\include\proc\pic10f200.h
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC10-12Fxxx_DFP/1.5.61/xc8\pic\include\proc\pic10f200.h: 55: __asm("INDF equ 00h");
+[; <" INDF equ 00h ;# ">
+"75
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC10-12Fxxx_DFP/1.5.61/xc8\pic\include\proc\pic10f200.h: 75: __asm("TMR0 equ 01h");
+[; <" TMR0 equ 01h ;# ">
+"95
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC10-12Fxxx_DFP/1.5.61/xc8\pic\include\proc\pic10f200.h: 95: __asm("PCL equ 02h");
+[; <" PCL equ 02h ;# ">
+"115
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC10-12Fxxx_DFP/1.5.61/xc8\pic\include\proc\pic10f200.h: 115: __asm("STATUS equ 03h");
+[; <" STATUS equ 03h ;# ">
+"181
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC10-12Fxxx_DFP/1.5.61/xc8\pic\include\proc\pic10f200.h: 181: __asm("FSR equ 04h");
+[; <" FSR equ 04h ;# ">
+"201
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC10-12Fxxx_DFP/1.5.61/xc8\pic\include\proc\pic10f200.h: 201: __asm("OSCCAL equ 05h");
+[; <" OSCCAL equ 05h ;# ">
+"272
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC10-12Fxxx_DFP/1.5.61/xc8\pic\include\proc\pic10f200.h: 272: __asm("GPIO equ 06h");
+[; <" GPIO equ 06h ;# ">
+[v $root$_main `(v ~T0 @X0 0 e ]
+"30 main.c
+[; ;main.c: 30: void main(void) {
+[v _main `(v ~T0 @X0 1 ef ]
+{
+[e :U _main ]
+[f ]
+"33
+[; ;main.c: 33:     OSCCAL = 0x1E;
+[e = _OSCCAL -> -> 30 `i `uc ]
+"37
+[; ;main.c: 37:     OPTION = 0x80;
+[e = _OPTION -> -> 128 `i `uc ]
+"40
+[; ;main.c: 40:     GPIO = 0x00;
+[e = _GPIO -> -> 0 `i `uc ]
+"44
+[; ;main.c: 44:     TRIS = 0x0A;
+[e = _TRIS -> -> 10 `i `uc ]
+"46
+[; ;main.c: 46:     while (1) {
+[e :U 19 ]
+{
+"48
+[; ;main.c: 48:         GP2 = 0;
+[e = _GP2 -> -> 0 `i `b ]
+"49
+[; ;main.c: 49:         filter(200);
+[e ( _filter (1 -> -> 200 `i `uc ]
+"50
+[; ;main.c: 50:         _delay(1000000);
+[e ( __delay (1 -> -> 1000000 `l `ul ]
+"52
+[; ;main.c: 52:         generateOutput();
+[e ( _generateOutput ..  ]
+"53
+[; ;main.c: 53:     }
+}
+[e :U 18 ]
+[e $U 19  ]
+[e :U 20 ]
+"55
+[; ;main.c: 55: }
+[e :UE 17 ]
+}
+"57
+[; ;main.c: 57: void filter(uint8_t signalTime){
+[v _filter `(v ~T0 @X0 1 ef1`uc ]
+{
+[e :U _filter ]
+[v _signalTime `uc ~T0 @X0 1 r1 ]
+[f ]
+"58
+[; ;main.c: 58:     uint8_t count = 0;
+[v _count `uc ~T0 @X0 1 a ]
+[e = _count -> -> 0 `i `uc ]
+"59
+[; ;main.c: 59:     while (1 == GP3) {
+[e $U 22  ]
+[e :U 23 ]
+{
+"60
+[; ;main.c: 60:     }
+}
+[e :U 22 ]
+"59
+[; ;main.c: 59:     while (1 == GP3) {
+[e $ == -> 1 `i -> _GP3 `i 23  ]
+[e :U 24 ]
+"61
+[; ;main.c: 61:     while (count < signalTime) {
+[e $U 25  ]
+[e :U 26 ]
+{
+"62
+[; ;main.c: 62:         if (GP3 == 0) {
+[e $ ! == -> _GP3 `i -> 0 `i 28  ]
+{
+"63
+[; ;main.c: 63:             count = 0;
+[e = _count -> -> 0 `i `uc ]
+"64
+[; ;main.c: 64:         } else {
+}
+[e $U 29  ]
+[e :U 28 ]
+{
+"65
+[; ;main.c: 65:             count++;
+[e ++ _count -> -> 1 `i `uc ]
+"66
+[; ;main.c: 66:         }
+}
+[e :U 29 ]
+"67
+[; ;main.c: 67:         _delay(970);
+[e ( __delay (1 -> -> -> 970 `i `l `ul ]
+"68
+[; ;main.c: 68:     }
+}
+[e :U 25 ]
+"61
+[; ;main.c: 61:     while (count < signalTime) {
+[e $ < -> _count `i -> _signalTime `i 26  ]
+[e :U 27 ]
+"69
+[; ;main.c: 69: }
+[e :UE 21 ]
+}
+"71
+[; ;main.c: 71: void generateOutput( void )
+[v _generateOutput `(v ~T0 @X0 1 ef ]
+"72
+[; ;main.c: 72: {
+{
+[e :U _generateOutput ]
+[f ]
+"73
+[; ;main.c: 73:     GP2 = 0;
+[e = _GP2 -> -> 0 `i `b ]
+"74
+[; ;main.c: 74:     _delay(500000);
+[e ( __delay (1 -> -> 500000 `l `ul ]
+"77
+[; ;main.c: 77:     uint8_t i=0;
+[v _i `uc ~T0 @X0 1 a ]
+[e = _i -> -> 0 `i `uc ]
+"78
+[; ;main.c: 78:     while (3 > i){
+[e $U 31  ]
+[e :U 32 ]
+{
+"80
+[; ;main.c: 80:         ++i;
+[e =+ _i -> -> 1 `i `uc ]
+"82
+[; ;main.c: 82:         uint16_t count=0;
+[v _count `ui ~T0 @X0 1 a ]
+[e = _count -> -> 0 `i `ui ]
+"83
+[; ;main.c: 83:         while(500 > count){
+[e $U 34  ]
+[e :U 35 ]
+{
+"84
+[; ;main.c: 84:             count++;
+[e ++ _count -> -> 1 `i `ui ]
+"86
+[; ;main.c: 86:             GP2 = 1;
+[e = _GP2 -> -> 1 `i `b ]
+"87
+[; ;main.c: 87:             _delay(500);
+[e ( __delay (1 -> -> -> 500 `i `l `ul ]
+"88
+[; ;main.c: 88:             GP2 = 0;
+[e = _GP2 -> -> 0 `i `b ]
+"89
+[; ;main.c: 89:             _delay(500);
+[e ( __delay (1 -> -> -> 500 `i `l `ul ]
+"90
+[; ;main.c: 90:         }
+}
+[e :U 34 ]
+"83
+[; ;main.c: 83:         while(500 > count){
+[e $ > -> -> 500 `i `ui _count 35  ]
+[e :U 36 ]
+"92
+[; ;main.c: 92:     }
+}
+[e :U 31 ]
+"78
+[; ;main.c: 78:     while (3 > i){
+[e $ > -> 3 `i -> _i `i 32  ]
+[e :U 33 ]
+"94
+[; ;main.c: 94: }
+[e :UE 30 ]
+}

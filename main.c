@@ -1,6 +1,6 @@
 /*
  * File:   main.c
- * Author: Natalie Dimov & Milen Dimov
+ * Author: Natalie Dimov
  *
  * Created on April 9, 2023, 6:20 PM
  */
